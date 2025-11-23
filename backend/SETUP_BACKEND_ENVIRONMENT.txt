@@ -1,0 +1,12 @@
+# Python environment setup for backend
+# 1. Download Python 3.10 or 3.11 from https://www.python.org/downloads/
+# 2. Create and activate a virtual environment
+python -m venv venv
+# Windows activation
+venv\Scripts\activate
+# 3. Upgrade pip
+python -m pip install --upgrade pip
+# 4. Install required packages
+pip install tensorflow matplotlib fastapi uvicorn pillow numpy sqlalchemy passlib python-jose python-dotenv shap
+# 5. Run backend server
+uvicorn main:app --reload
