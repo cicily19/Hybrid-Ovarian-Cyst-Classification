@@ -1,0 +1,27 @@
+{
+  "include": [
+    "backend"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "**/venv",
+    "**/.venv",
+    "frontend"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false,
+  "reportImportCycles": false,
+  "pythonVersion": "3.10",
+  "pythonPlatform": "All",
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "executionEnvironments": [
+    {
+      "root": "backend",
+      "pythonVersion": "3.10",
+      "pythonPlatform": "All"
+    }
+  ]
+}
+

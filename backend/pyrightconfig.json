@@ -1,0 +1,30 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "**/venv",
+    "**/.venv"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false,
+  "reportImportCycles": false,
+  "pythonVersion": "3.10",
+  "pythonPlatform": "All",
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "venvPath": ".",
+  "venv": "venv",
+  "stubPath": "",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.10",
+      "pythonPlatform": "All",
+      "extraPaths": []
+    }
+  ]
+}
+
