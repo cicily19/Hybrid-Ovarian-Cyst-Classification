@@ -1,0 +1,109 @@
+.stat-card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card-icon {
+  font-size: 2rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-card-blue .stat-card-icon {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.stat-card-green .stat-card-icon {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.stat-card-yellow .stat-card-icon {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.stat-card-orange .stat-card-icon {
+  background: #fed7aa;
+  color: #9a3412;
+}
+
+.stat-card-red .stat-card-icon {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.stat-card-content {
+  flex: 1;
+}
+
+.stat-card-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.stat-card-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card-progress {
+  height: 4px;
+  background: #e5e7eb;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.stat-card-progress-bar {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.progress-high {
+  background: #10b981;
+}
+
+.progress-medium {
+  background: #f59e0b;
+}
+
+.progress-low {
+  background: #dc2626;
+}
+
+.stat-card-trend {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.trend-up {
+  color: #10b981;
+}
+
+.trend-down {
+  color: #dc2626;
+}
+
+
