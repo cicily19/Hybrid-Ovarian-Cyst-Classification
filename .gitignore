@@ -51,6 +51,16 @@ ENV/
 dist/
 build/
 
+# Machine Learning Models (too large for GitHub)
+*.h5
+*.keras
+*.pth
+*.pt
+*.pb
+*.onnx
+backend/models/**/*.h5
+backend/models/**/*.keras
+
 # Environment variables
 .env
 .env.production
